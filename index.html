@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio With Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav
+      class="navbar fixed-top navbar-expand-lg shadow-sm bg-primary"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-medium" href="#home">Halo Dunia! 🌏</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Jumbotron start -->
+    <section class="jumbotron text-center" id="home">
+      <img
+        src="img/avatar.png"
+        alt=""
+        width="200px"
+        class="rounded-circle img-thumbnail"
+      />
+      <h1 class="display-4 text-primary fw-semibold">Hamdan</h1>
+      <p class="lead mb-5"><em>Warga Sipil</em> yang baru belajar ngoding!</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#0d6efd"
+          fill-opacity="1"
+          d="M0,160L48,133.3C96,107,192,53,288,74.7C384,96,480,192,576,208C672,224,768,160,864,154.7C960,149,1056,203,1152,208C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Jumbotron end -->
+
+    <!-- About start -->
+    <section id="about">
+      <div
+        class="container-fluid text-center text-light p-5"
+        style="background-color: #0d6efd"
+      >
+        <div class="row justify-content-center">
+          <div class="col-12 fw-semibold fs-3 font-weight-bold mb-5 mt-5">
+            About Me
+          </div>
+          <div class="col-md-4">
+            <p>
+              Saya adalah seseorang yang penuh antusiasme dalam dunia teknologi.
+              Hobi utama saya adalah bermain game, di mana saya mengejar
+              petualangan virtual dan kompetisi yang seru. Selain itu, saya juga
+              memiliki ketertarikan yang kuat dalam belajar tentang web
+              development. Saya senang menggali lebih dalam ke dalam dunia
+              coding, merancang tampilan web yang menarik, dan mengembangkan
+              keterampilan dalam menghasilkan solusi digital yang inovatif.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <p>
+              Kombinasi antara hobi bermain game dan ketertarikan pada web
+              development membantu saya memahami pentingnya pengalaman pengguna
+              yang baik dalam teknologi. Saya selalu siap untuk menjalani
+              tantangan baru dan memperluas pengetahuan serta keterampilan saya
+              dalam kedua bidang ini.
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#0d6efd"
+          fill-opacity="1"
+          d="M0,256L48,240C96,224,192,192,288,202.7C384,213,480,267,576,261.3C672,256,768,192,864,192C960,192,1056,256,1152,277.3C1248,299,1344,277,1392,266.7L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- About end -->
+
+    <!-- Projects start -->
+    <section id="projects">
+      <div class="container text-center p-5">
+        <div class="col-12 fw-semibold fs-1 font-weight-bold mb-5 mt-5">
+          My Projects
+        </div>
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-4 mb-2">
+            <div class="card shadow">
+              <img
+                src="img/projects/keyboard1.jpg"
+                class="card-img-top"
+                alt="project1"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content. Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit Lorem, ipsum
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-2">
+            <div class="card shadow">
+              <img
+                src="img/projects/keyboard2.jpg"
+                class="card-img-top"
+                alt="project2"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content. Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Impedit, non.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-2">
+            <div class="card shadow">
+              <img
+                src="/img/projects/keyboard3.jpg"
+                class="card-img-top"
+                alt="project3"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content. Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Porro, libero?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#0d6efd"
+          fill-opacity="1"
+          d="M0,96L40,90.7C80,85,160,75,240,112C320,149,400,235,480,229.3C560,224,640,128,720,122.7C800,117,880,203,960,202.7C1040,203,1120,117,1200,85.3C1280,53,1360,75,1400,85.3L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Projects end -->
+
+    <!-- Contact start -->
+    <section id="contact">
+      <div class="container-fluid p-5 bg-primary">
+        <div class="row justify-content-center mt-5">
+          <div
+            class="col-md-5 border border-muted border-4 rounded-5 p-3 shadow bg-light"
+          >
+            <p class="fw-semibold fs-3 font-weight-bold mt-5 text-center">
+              Contact Me!
+            </p>
+            <form>
+              <div class="mb-3 shadow-sm">
+                <label for="name" class="form-label">Nama</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  aria-describedby="name"
+                />
+              </div>
+              <div class="mb-3 shadow-sm">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="email"
+                />
+              </div>
+              <div class="mb-3 shadow-sm">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <button type="button" class="btn btn-outline-primary mb-5">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#0d6efd"
+          fill-opacity="1"
+          d="M0,256L40,245.3C80,235,160,213,240,224C320,235,400,277,480,272C560,267,640,213,720,208C800,203,880,245,960,250.7C1040,256,1120,224,1200,213.3C1280,203,1360,213,1400,218.7L1440,224L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Contact end  -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="row text-center fw- fs-6 font-weight-bold p-5">
+        <div class="col-md">
+          <p>
+            ©-Created by Hamdan. Made with
+            <i class="bi bi-heart-fill text-danger"></i>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
